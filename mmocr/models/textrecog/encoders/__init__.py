@@ -7,8 +7,9 @@ from .nrtr_encoder import NRTREncoder
 from .sar_encoder import SAREncoder
 from .satrn_encoder import SATRNEncoder
 from .svtr_encoder import SVTREncoder
+from .svtr_encoder_adapter import SVTREncoderAdapter
 
 __all__ = [
     'SAREncoder', 'NRTREncoder', 'BaseEncoder', 'ChannelReductionEncoder',
-    'SATRNEncoder', 'ABIEncoder', 'SVTREncoder', 'ASTEREncoder'
+    'SATRNEncoder', 'ABIEncoder', 'SVTREncoder', 'ASTEREncoder','SVTREncoderAdapter'
 ]
